@@ -1,0 +1,32 @@
+.ul-style {
+  margin-top: 20px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  background-color: var(--translucence3);
+}
+
+.ul-style li {
+  margin-top: 10px;
+  width: 95%;
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: var(--translucence3);
+}
+
+.ul-style li:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+  background-color: var(--translucence5);
+  transition: all 0.3s ease-in-out;
+}
+
+.service-ul {
+  height: 80%;
+}
+
+.flow-ul {
+  height: 90%;
+}

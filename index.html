@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="statusbar">
+        <span class="digital-clock"></span>
+        <span class="weather-info"></span>
+        <span class="location-info"></span>
+    </div>
+    <div class="bigcontainer">
+        <div class="two-container">
+            <form class="login-form form-style">
+                <span class="welcome-span">My website is</span>
+                <input class="login-input input-style" type="text" placeholder="name" required>
+                <input class="login-submit button-style" type="submit" value="login">
+                <input class="logout-submit button-style hidden" type="submit" value="logout">
+            </form>
+            <form class="service-form form-style">
+                <span>My service</span>
+                <input class="service-input input-style" type="text" required>
+                <input class="service-submit button-style" type="submit" value="submit">
+            </form>
+            <ul class="service-ul ul-style"></ul>
+        </div>
+        <div class="two-container">
+            <form class="flow-form form-style">
+                <span>Flow</span>
+                <input class="flow-input input-style" type="text" required>
+                <input class="flow-submit button-style" type="submit" value="submit">
+            </form>
+            <ul class="flow-ul ul-style"></ul>
+        </div>
+    </div>
+
+    <script src="src/js/digital-clock.js"></script>
+    <script src="src/js/weather.js"></script>
+    <script src="src/js/login.js"></script>
+    <script src="src/js/form.js"></script>
+    <script src="src/js/bg.js"></script>
+</body>
+</html>

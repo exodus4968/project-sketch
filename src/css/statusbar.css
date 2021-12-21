@@ -1,0 +1,19 @@
+.statusbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px, 30px;
+  height: 40px;
+  font-size: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: var(--translucence2);
+}
+
+.statusbar span {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+}

@@ -1,0 +1,19 @@
+.bigcontainer {
+  width: inherit;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-container {
+  width: 40%;
+  height: inherit;
+  margin: 20px 20px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  background-color: var(--translucence2);
+}
